@@ -30,7 +30,7 @@ jobs:
         run: yarn install
 
       - name: Build
-        run: yarn slidev build --base /fe-connect-2023-10-scripting-with-js-ts-slides/
+        run: yarn slidev build --base /stress-and-boundaries-slides/
 
       - name: Add images
         run: mv images dist/
